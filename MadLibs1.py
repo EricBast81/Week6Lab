@@ -2,7 +2,7 @@ print("Lets play Mad Libs.")
 print("Are you ready?")
 
 pNoun1 = input("Please give me a proper name. ")
-print("What gender is",pNoun1, "?" "boy, girl, or non?")
+print("What gender is" + pNoun1, "?" "boy, girl, or non?")
 assign = input()
 adj1 = input("Please give me an adjective. ")
 noun2 = input("Please give me a noun. ")
@@ -21,8 +21,8 @@ elif assign == "non":
 else:
     print("please use a valid entry")
 
-print("Today I will tell you a story about", pNoun1, "and", gen[0], "adventure in the land of",adj1 +"ville.") 
-print("One day", pNoun1, "was sitting on", gen[0], noun2, "when a huge wind stated to blow")
+print("Today I will tell you a story about", pNoun1, "and", gen[1], "adventure in the land of",adj1 +"ville.") 
+print("One day", pNoun1, "was sitting on", gen[1], noun2, "when a huge wind stated to blow")
 print(pNoun1, "was quickly able to", verb1, "away from", gen[1], noun2, "but the wind was too strong and", gen[0], "landed on", gen[1], bpart1)
 print("Fortunately ,", celeb1, "was right there to catch", pNoun1, "and prevented any serious damage from happening")
 print(pNoun1, "was so thankfull they decided to give", celeb1, "a tip of $" + num1, "dollars.")
